@@ -80,8 +80,9 @@ public class SwipeBoxFlinger : MonoBehaviour
 
     private Vector3 GetFlingForce(Vector2 viewPortDelta, float time)
     {
-        var force = new Vector3(viewPortDelta.x, _flingArc, viewPortDelta.y);
-        return force * _flingBasePower * 1f / time;
+        var arc = _flingArc / (time * 10f); // this number is magic
+        var force = new Vector3(viewPortDelta.x, arc, viewPortDelta.y);
+        return force * _flingBasePower;
     }
 }
 
