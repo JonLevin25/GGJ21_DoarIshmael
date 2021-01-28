@@ -4,6 +4,8 @@ using UnityEngine;
 public class SwipeBoxFlinger : MonoBehaviour
 {
     [SerializeField] private float _flingBasePower;
+    [Range(0f, 1f)]
+    [SerializeField] private float _flingArc;
     [SerializeField] private PackageBox _boxPrefab;
     [SerializeField] private Transform _packageSpawner;
     [SerializeField] private GameObject test;
@@ -35,7 +37,7 @@ public class SwipeBoxFlinger : MonoBehaviour
 
     private Vector3 GetFlingForce(Vector2 viewPortDelta, float time)
     {
-        var force = new Vector3(viewPortDelta.x, 0, viewPortDelta.y);
-        return force * _flingBasePower;
+        var force = new Vector3(viewPortDelta.x, _flingArc, viewPortDelta.y);
+        return force * _flingBasePower * 1f / time;
     }
 }
