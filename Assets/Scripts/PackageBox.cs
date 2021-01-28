@@ -7,6 +7,7 @@ public class PackageBox : MonoBehaviour
 
     public void Fling(Vector3 force)
     {
+        Debug.Log($"Fling({force})");
         _rb.AddForce(force, ForceMode.Impulse);
         Highlight(this);
     }
