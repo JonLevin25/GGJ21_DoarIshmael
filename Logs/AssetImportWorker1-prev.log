@@ -264,3 +264,100 @@ Received Import Request.
 Start importing Assets/Models/Env/Materials/Red.mat using Guid(ce81e5dc252b8ed4e92b986f45c87bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff47d0982e2498dbf64d6e6e7c51f027') in 0.014392 seconds
   Import took 0.017693 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1459.254336 seconds.
+  path: Assets/UnityHDRI/Trinitatis Church/TrinitatisChurchWhiteBalanced.mat
+  artifactKey: Guid(5cb3d412579e6544b8718b834394cdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/Trinitatis Church/TrinitatisChurchWhiteBalanced.mat using Guid(5cb3d412579e6544b8718b834394cdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70493f0505e182f569deac78455d1069') in 0.091785 seconds
+  Import took 0.094514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.067262 seconds.
+  path: Assets/UnityHDRI/Gareoult/GareoultWhiteBalanced.mat
+  artifactKey: Guid(6cbad82bdd84ec947baa8c7bfe3fdcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/Gareoult/GareoultWhiteBalanced.mat using Guid(6cbad82bdd84ec947baa8c7bfe3fdcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65671d2960529dc44041901e761f5ad') in 0.032184 seconds
+  Import took 0.035391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalanced.mat
+  artifactKey: Guid(c6009c518b3fa764d960a012396d76fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalanced.mat using Guid(c6009c518b3fa764d960a012396d76fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8964d021236343f3ad8cc7086f248') in 0.031543 seconds
+  Import took 0.034944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalancedNoSun.mat
+  artifactKey: Guid(3457b412defd59c449c9f11d3785ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalancedNoSun.mat using Guid(3457b412defd59c449c9f11d3785ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08bc23aac9434f3e896c0b577529592') in 0.031126 seconds
+  Import took 0.034226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/UnityHDRI/Gareoult/GareoultWhiteBalancedNoSun.mat
+  artifactKey: Guid(fa3c128d352652b499f6d2a282d8ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/Gareoult/GareoultWhiteBalancedNoSun.mat using Guid(fa3c128d352652b499f6d2a282d8ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea362b4b4e169ebf663af31c6b734f40') in 0.032384 seconds
+  Import took 0.037088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/UnityHDRI/Gareoult/GareoultWhiteBalanced.mat
+  artifactKey: Guid(6cbad82bdd84ec947baa8c7bfe3fdcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/Gareoult/GareoultWhiteBalanced.mat using Guid(6cbad82bdd84ec947baa8c7bfe3fdcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65671d2960529dc44041901e761f5ad') in 0.031842 seconds
+  Import took 0.035990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalancedNoSun.mat
+  artifactKey: Guid(3457b412defd59c449c9f11d3785ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityHDRI/KirbyCove/KirbyCoveWhiteBalancedNoSun.mat using Guid(3457b412defd59c449c9f11d3785ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08bc23aac9434f3e896c0b577529592') in 0.025778 seconds
+  Import took 0.030094 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1342 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1816.
+Total: 2.379300 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.465700 ms  DeleteObjects: 0.549700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.6 MB.
+System memory in use after: 44.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1816.
+Total: 3.448400 ms (FindLiveObjects: 0.482300 ms CreateObjectMapping: 0.123700 ms MarkObjects: 2.226900 ms  DeleteObjects: 0.612600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2876.630598 seconds.
+  path: Assets/Models/Env/Houseplant_3.fbx
+  artifactKey: Guid(5475a1090d1271245b293eac7939a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_3.fbx using Guid(5475a1090d1271245b293eac7939a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
