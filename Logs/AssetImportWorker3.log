@@ -77,4 +77,1161 @@ Total: 2.394300 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.064100 m
 Received Import Request.
   path: Assets/Models/Env/Bathroom_Toilet.fbx
   artifactKey: Guid(55debfaae8f465b40b1c6c03594338dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Env/Bathroom_Toilet.fbx using Guid(55debfaae8f465b40b1c6c03594338dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+Start importing Assets/Models/Env/Bathroom_Toilet.fbx using Guid(55debfaae8f465b40b1c6c03594338dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ea4d9f56318d765eb9f7d55053a643') in 600.209205 seconds
+  Import took 600.211805 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.001129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1840.
+Total: 10.348500 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.111800 ms MarkObjects: 9.886300 ms  DeleteObjects: 0.084600 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.001151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.2 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.125400 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.799700 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4790.315320 seconds.
+  path: Assets/POLYGONCityCharacters/Demo/DemoSettings.lighting
+  artifactKey: Guid(8c51cc49885a02147be099294393f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Demo/DemoSettings.lighting using Guid(8c51cc49885a02147be099294393f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '291a21ddd904ae462cdf4e0ba18681d1') in 0.074451 seconds
+  Import took 0.089202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.733867 seconds.
+  path: Assets/POLYGONCityCharacters/Materials
+  artifactKey: Guid(2a085f26e6c7f154cbdaf008ebfe9abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials using Guid(2a085f26e6c7f154cbdaf008ebfe9abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ec144d29e4d54b1059b7f87e9854e') in 0.006740 seconds
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.542458 seconds.
+  path: Assets/POLYGONCityCharacters/Models
+  artifactKey: Guid(a901ec604973d2c41b6fe89c1f3d06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Models using Guid(a901ec604973d2c41b6fe89c1f3d06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b6deafbc8330bb9ef657fd69d33831') in 0.006899 seconds
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000976 seconds.
+  path: Assets/POLYGONCityCharacters/Models
+  artifactKey: Guid(a901ec604973d2c41b6fe89c1f3d06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Models using Guid(a901ec604973d2c41b6fe89c1f3d06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b6deafbc8330bb9ef657fd69d33831') in 0.002590 seconds
+  Import took 0.005322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.054945 seconds.
+  path: Assets/POLYGONCityCharacters/Models/Character.fbx
+  artifactKey: Guid(4a5a8c8ff5d6d2e48ab8d2b27100cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Models/Character.fbx using Guid(4a5a8c8ff5d6d2e48ab8d2b27100cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345e13850bdc9bda4f7c3e06e9d124b') in 0.323110 seconds
+  Import took 0.326734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1274.589378 seconds.
+  path: Assets/Models/Animations
+  artifactKey: Guid(628b3d577159ce443bf7c1a7283470e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations using Guid(628b3d577159ce443bf7c1a7283470e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db0be0fbf87e9f85d9cb1672d98026') in 0.013574 seconds
+  Import took 0.017573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002930 seconds.
+  path: Assets/Models/Animations
+  artifactKey: Guid(628b3d577159ce443bf7c1a7283470e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations using Guid(628b3d577159ce443bf7c1a7283470e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db0be0fbf87e9f85d9cb1672d98026') in 0.005318 seconds
+  Import took 0.009742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.069287 seconds.
+  path: Assets/Models/Animations/Controller.controller
+  artifactKey: Guid(6598d70a3b1490342b1a72580b4d2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Controller.controller using Guid(6598d70a3b1490342b1a72580b4d2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8869880b7bd700bb3d8690fd46e51d2') in 0.021776 seconds
+  Import took 0.025998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.433576 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx
+  artifactKey: Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx using Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda2be143314091c09354ce096b0322') in 0.020288 seconds
+  Import took 0.025889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.701803 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx
+  artifactKey: Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx using Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ed64684135ddd0e0724ba72f2f5a1f') in 0.024657 seconds
+  Import took 0.031598 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.4 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 4.860100 ms (FindLiveObjects: 0.620700 ms CreateObjectMapping: 0.321800 ms MarkObjects: 3.766800 ms  DeleteObjects: 0.146400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.734823 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx
+  artifactKey: Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx using Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a07327b5e17a20befa76b0fa399256') in 0.193557 seconds
+  Import took 0.210783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.544453 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx
+  artifactKey: Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Laughing.fbx using Guid(6b0185f1959ca6145bc58e6ccd8b049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a07327b5e17a20befa76b0fa399256') in 0.023222 seconds
+  Import took 0.031306 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 5.233700 ms (FindLiveObjects: 0.888700 ms CreateObjectMapping: 0.372000 ms MarkObjects: 3.797700 ms  DeleteObjects: 0.167200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1816.590618 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx
+  artifactKey: Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx using Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8155ffe1b84e095385b11b1a82085a1') in 0.064462 seconds
+  Import took 0.071505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.927826 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx
+  artifactKey: Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx using Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4affbfea76ca3d65667a955e4397ed') in 0.021144 seconds
+  Import took 0.027501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001761 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx
+  artifactKey: Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx using Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4affbfea76ca3d65667a955e4397ed') in 0.020327 seconds
+  Import took 0.028728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.409324 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx
+  artifactKey: Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Angry.fbx using Guid(3761440c1a8512a4989a8612b628f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d970d61dd4b201a5cbcd5b7983eefa') in 0.019748 seconds
+  Import took 0.027208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549466 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Cards.fbx
+  artifactKey: Guid(adf6dc9d8cfce304aa88228f29ae9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Cards.fbx using Guid(adf6dc9d8cfce304aa88228f29ae9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7f6a24017bdb6fcfd9e2653a0c7712') in 0.025322 seconds
+  Import took 0.030600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.958261 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Cards.fbx
+  artifactKey: Guid(adf6dc9d8cfce304aa88228f29ae9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Cards.fbx using Guid(adf6dc9d8cfce304aa88228f29ae9511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b04059073a8672ccc605c21f29d4ea2') in 0.018234 seconds
+  Import took 0.024415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.824985 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx
+  artifactKey: Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx using Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0952d9810cde6a822a1b5f4deb5ae6f9') in 0.044074 seconds
+  Import took 0.052382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001782 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx
+  artifactKey: Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx using Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0952d9810cde6a822a1b5f4deb5ae6f9') in 0.018002 seconds
+  Import took 0.025713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.677050 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx
+  artifactKey: Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Catwalk Walk.fbx using Guid(cbde3f89fbb073c4bae2833790b2d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164f5f2b27cdf922ebecc8a2efcdf930') in 0.022393 seconds
+  Import took 0.028603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.448556 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Crouch To Stand.fbx
+  artifactKey: Guid(6f94c13de402fdc438a4c75de2d2eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Crouch To Stand.fbx using Guid(6f94c13de402fdc438a4c75de2d2eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7fde1014955d300a38723ab4931255') in 0.021670 seconds
+  Import took 0.028370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.408213 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Crouch To Stand.fbx
+  artifactKey: Guid(6f94c13de402fdc438a4c75de2d2eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Crouch To Stand.fbx using Guid(6f94c13de402fdc438a4c75de2d2eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceca52413233a4abaa14787ae7db6b9c') in 0.011085 seconds
+  Import took 0.016712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.260187 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Crouch Turn To Stand.fbx
+  artifactKey: Guid(cf0a00831a6bc47499f11c14366cb7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Crouch Turn To Stand.fbx using Guid(cf0a00831a6bc47499f11c14366cb7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b519fd947116c38c99c8647ba95e07') in 0.024011 seconds
+  Import took 0.030714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.740172 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Crouch Turn To Stand.fbx
+  artifactKey: Guid(cf0a00831a6bc47499f11c14366cb7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Crouch Turn To Stand.fbx using Guid(cf0a00831a6bc47499f11c14366cb7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1491d136943b26b3da8c734f850780') in 0.019470 seconds
+  Import took 0.025978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.063048 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Drunk Walk.fbx
+  artifactKey: Guid(e67e6cc5702118d49af294ff19537e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Drunk Walk.fbx using Guid(e67e6cc5702118d49af294ff19537e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77da6e14ff781f91eda1a88af77c96ff') in 0.027072 seconds
+  Import took 0.036081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.231862 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Drunk Walk.fbx
+  artifactKey: Guid(e67e6cc5702118d49af294ff19537e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Drunk Walk.fbx using Guid(e67e6cc5702118d49af294ff19537e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069acd59d2066cf55e5f7eb8cde17057') in 0.018219 seconds
+  Import took 0.025188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.087931 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx
+  artifactKey: Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx using Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f30363ffc1b758764ba48a6d3180da') in 0.030150 seconds
+  Import took 0.044824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004887 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx
+  artifactKey: Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx using Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f30363ffc1b758764ba48a6d3180da') in 0.013857 seconds
+  Import took 0.019095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.379888 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx
+  artifactKey: Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx using Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c666def800e59c936aed6bc4228de') in 0.017353 seconds
+  Import took 0.023534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001729 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx
+  artifactKey: Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Fall Flat.fbx using Guid(42a269c4be634e641b6ef6035edcef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78c666def800e59c936aed6bc4228de') in 0.015205 seconds
+  Import took 0.022892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.077357 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Standing Pose.fbx
+  artifactKey: Guid(7e8cedf9161e8c947b995a8bfe3e0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Standing Pose.fbx using Guid(7e8cedf9161e8c947b995a8bfe3e0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed30c42a5d32db1a406902a3e24641') in 0.078150 seconds
+  Import took 0.109503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.880503 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Flair.fbx
+  artifactKey: Guid(6820909f14837e0498f634839b31b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Flair.fbx using Guid(6820909f14837e0498f634839b31b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ed3cd665d9328c983f8a4e3c2b0434') in 0.024943 seconds
+  Import took 0.030329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.150296 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Flair.fbx
+  artifactKey: Guid(6820909f14837e0498f634839b31b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Flair.fbx using Guid(6820909f14837e0498f634839b31b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4914fee6f66ae876def85583373f897') in 0.013993 seconds
+  Import took 0.023116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.613253 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Offensive Idle.fbx
+  artifactKey: Guid(94489b0bee334eb42a2125e8cd47955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Offensive Idle.fbx using Guid(94489b0bee334eb42a2125e8cd47955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0991170a9906993585cd72a622bba18e') in 0.030542 seconds
+  Import took 0.038112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.317002 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Offensive Idle.fbx
+  artifactKey: Guid(94489b0bee334eb42a2125e8cd47955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Offensive Idle.fbx using Guid(94489b0bee334eb42a2125e8cd47955e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f9a64d8982deff056695a129b7cce') in 0.016869 seconds
+  Import took 0.023431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.156299 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Old Man Idle.fbx
+  artifactKey: Guid(4f46c5d1068b37d4a87ec241473b2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Old Man Idle.fbx using Guid(4f46c5d1068b37d4a87ec241473b2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5add99dde7d1afee343a4f2309d62836') in 0.026027 seconds
+  Import took 0.032175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.111451 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Old Man Idle.fbx
+  artifactKey: Guid(4f46c5d1068b37d4a87ec241473b2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Old Man Idle.fbx using Guid(4f46c5d1068b37d4a87ec241473b2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d671191c29a9363663960bb0fc9298') in 0.014513 seconds
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549151 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx
+  artifactKey: Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx using Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00f0bbb5950565dac8c8ca0ef667e3e') in 0.028570 seconds
+  Import took 0.038214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx
+  artifactKey: Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx using Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00f0bbb5950565dac8c8ca0ef667e3e') in 0.016272 seconds
+  Import took 0.022797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.766313 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx
+  artifactKey: Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Scary Clown Stopping.fbx using Guid(8f7e2860d40d1e8489d3971e81ccce9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6582c0277058e222597771405deeefbf') in 0.015378 seconds
+  Import took 0.020953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773609 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Silly Dancing.fbx
+  artifactKey: Guid(32314e38601f12b4f904c2d244d22a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Silly Dancing.fbx using Guid(32314e38601f12b4f904c2d244d22a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2387196afdd15713bc9a563a9fc4b84') in 0.031726 seconds
+  Import took 0.042573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.855486 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Silly Dancing.fbx
+  artifactKey: Guid(32314e38601f12b4f904c2d244d22a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Silly Dancing.fbx using Guid(32314e38601f12b4f904c2d244d22a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387dbbd0c1c3397c1faf9170c02056cb') in 0.017828 seconds
+  Import took 0.024436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.936393 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx
+  artifactKey: Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx using Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21cd021dc33023ad8bc3b6ce1c0b99d') in 0.028356 seconds
+  Import took 0.034600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.034636 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx
+  artifactKey: Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx using Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71c98203d46aeb6992192ac6f3b67a6') in 0.023004 seconds
+  Import took 0.040379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.025322 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx
+  artifactKey: Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Clap.fbx using Guid(df059f910aee0ef4fa86a63c7617d193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a3e2e1b20306b721532864c8d1fc12') in 0.015250 seconds
+  Import took 0.020432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727222 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx
+  artifactKey: Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx using Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290b3edd61d1e3fbec1428e0717fc16') in 0.029736 seconds
+  Import took 0.039161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015759 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx
+  artifactKey: Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx using Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290b3edd61d1e3fbec1428e0717fc16') in 0.011943 seconds
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.603737 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx
+  artifactKey: Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Yell.fbx using Guid(3db2181c43a69b841b13ac4fd31d8650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ea4768143a8b698d9e9bf05338ade2') in 0.013491 seconds
+  Import took 0.018034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.950795 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Standing Walk Right.fbx
+  artifactKey: Guid(e1c64ade8c583d74baaf34aca962aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Standing Walk Right.fbx using Guid(e1c64ade8c583d74baaf34aca962aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820c02df062c96f4c4b8fd910335d3ee') in 0.023153 seconds
+  Import took 0.028856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406004 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sneak Walk.fbx
+  artifactKey: Guid(034ff248a37a2274ca1df3f8843491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sneak Walk.fbx using Guid(034ff248a37a2274ca1df3f8843491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf73fb3a9a8e2983c44dea0127dba08') in 0.023480 seconds
+  Import took 0.033243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.075142 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sneak Walk.fbx
+  artifactKey: Guid(034ff248a37a2274ca1df3f8843491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sneak Walk.fbx using Guid(034ff248a37a2274ca1df3f8843491d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5f5c9922b9bddde26c970f64591830') in 0.012859 seconds
+  Import took 0.018019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816643 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Strut Walking.fbx
+  artifactKey: Guid(2c870b348b95574418928cd8bad954ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Strut Walking.fbx using Guid(2c870b348b95574418928cd8bad954ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbc59916907d2c7146a55e507d05342') in 0.025397 seconds
+  Import took 0.031944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.907564 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Standing Walk Right.fbx
+  artifactKey: Guid(e1c64ade8c583d74baaf34aca962aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Standing Walk Right.fbx using Guid(e1c64ade8c583d74baaf34aca962aa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909bbfa1d278ff01d2c1aaafa54bec55') in 0.013691 seconds
+  Import took 0.020125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.628413 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Strut Walking.fbx
+  artifactKey: Guid(2c870b348b95574418928cd8bad954ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Strut Walking.fbx using Guid(2c870b348b95574418928cd8bad954ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147100d3d20d69de0149805b6f6082e0') in 0.015394 seconds
+  Import took 0.044592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968602 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx
+  artifactKey: Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx using Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade8e00bd11924bfcf7eb60447786a6') in 0.049195 seconds
+  Import took 0.059258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004380 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx
+  artifactKey: Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx using Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade8e00bd11924bfcf7eb60447786a6') in 0.034108 seconds
+  Import took 0.044418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.413494 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx
+  artifactKey: Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Telling A Secret.fbx using Guid(fcb2d54e0aa2a7c40a2eafc9fde6644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9e52e306362425ff84d60939684e51') in 0.017966 seconds
+  Import took 0.026516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395551 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walk In Circle.fbx
+  artifactKey: Guid(d678664ce17d37e419624d1e98da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walk In Circle.fbx using Guid(d678664ce17d37e419624d1e98da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3f55e8954b9eeab55c0f4ae6b78150') in 0.024128 seconds
+  Import took 0.029346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.403424 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walk In Circle.fbx
+  artifactKey: Guid(d678664ce17d37e419624d1e98da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walk In Circle.fbx using Guid(d678664ce17d37e419624d1e98da13e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5383be496bcbd3b4cf9bd26a0d18290') in 0.017277 seconds
+  Import took 0.024850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450348 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking(2).fbx
+  artifactKey: Guid(f226b06c344e3694fa8b2c7142e720b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking(2).fbx using Guid(f226b06c344e3694fa8b2c7142e720b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e853ad00c24a63321d1434577dd0d976') in 0.029491 seconds
+  Import took 0.037773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.743092 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking(1).fbx
+  artifactKey: Guid(35118e9b247963046b320bab84645414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking(1).fbx using Guid(35118e9b247963046b320bab84645414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0737c7dcd93ff2d40ba75c8eb37489ed') in 0.018911 seconds
+  Import took 0.025577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.116974 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking.fbx
+  artifactKey: Guid(2e7e0dc88ecf5ed4fa72810309a3775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking.fbx using Guid(2e7e0dc88ecf5ed4fa72810309a3775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86577bc3dc71e856da98ab4178c7c1c') in 0.022543 seconds
+  Import took 0.029638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.963833 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking(1).fbx
+  artifactKey: Guid(35118e9b247963046b320bab84645414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking(1).fbx using Guid(35118e9b247963046b320bab84645414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aa10675195f0c19b9facafaabee61c') in 0.012384 seconds
+  Import took 0.018080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.857639 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking(2).fbx
+  artifactKey: Guid(f226b06c344e3694fa8b2c7142e720b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking(2).fbx using Guid(f226b06c344e3694fa8b2c7142e720b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb5c32dd337a96eae29fd79193cb17') in 0.014874 seconds
+  Import took 0.020379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.539407 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Walking.fbx
+  artifactKey: Guid(2e7e0dc88ecf5ed4fa72810309a3775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Walking.fbx using Guid(2e7e0dc88ecf5ed4fa72810309a3775a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aa4aa079cd5b8b827220c7bdd4a9a6') in 0.014039 seconds
+  Import took 0.019913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.390737 seconds.
+  path: Assets/Models/Animations/SittingController.controller
+  artifactKey: Guid(6598d70a3b1490342b1a72580b4d2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/SittingController.controller using Guid(6598d70a3b1490342b1a72580b4d2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b810e9a81c100dfa78daf84869edb2') in 0.019929 seconds
+  Import took 0.028123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.157368 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx
+  artifactKey: Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx using Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9487c226ca80780d927d882c4561c1') in 0.023136 seconds
+  Import took 0.031707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.225832 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Standing Pose.fbx
+  artifactKey: Guid(7e8cedf9161e8c947b995a8bfe3e0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Standing Pose.fbx using Guid(7e8cedf9161e8c947b995a8bfe3e0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b32a4a279337eba1d24c4833d7402a') in 0.012839 seconds
+  Import took 0.027038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.034047 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Talking.fbx
+  artifactKey: Guid(c0f36e9fd8827764fbde7a6b8c8f2fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Talking.fbx using Guid(c0f36e9fd8827764fbde7a6b8c8f2fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df7af842f71b83ba824581a726f5782') in 0.042329 seconds
+  Import took 0.049387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.025607 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Talking.fbx
+  artifactKey: Guid(c0f36e9fd8827764fbde7a6b8c8f2fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Sitting Talking.fbx using Guid(c0f36e9fd8827764fbde7a6b8c8f2fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea63d7800d671f5ec30c6cc82bddbf7') in 0.027205 seconds
+  Import took 0.033512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.860637 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(2).fbx
+  artifactKey: Guid(f5cf03451349be1428d21c42667f1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(2).fbx using Guid(f5cf03451349be1428d21c42667f1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd4fefc80b7eda3424c024a9aaf266') in 0.028557 seconds
+  Import took 0.036644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392279 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx
+  artifactKey: Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx using Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02424a3884114cce6554623190b4a82') in 0.016202 seconds
+  Import took 0.023645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.541292 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx
+  artifactKey: Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(1).fbx using Guid(4b121f4e031930e4dbb8bcc3e71f16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b96778459147ab94b40a480f1ac039') in 0.011648 seconds
+  Import took 0.017535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.692371 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(2).fbx
+  artifactKey: Guid(f5cf03451349be1428d21c42667f1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose(2).fbx using Guid(f5cf03451349be1428d21c42667f1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1021701955364f7dc605139a13a643cd') in 0.016328 seconds
+  Import took 0.025049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624398 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose.fbx
+  artifactKey: Guid(30b17a1a65afb2646a206a8b13583d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose.fbx using Guid(30b17a1a65afb2646a206a8b13583d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf75aa9d75af988a87682b631bbb6cd5') in 0.023148 seconds
+  Import took 0.029130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.660529 seconds.
+  path: Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose.fbx
+  artifactKey: Guid(30b17a1a65afb2646a206a8b13583d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Animations/Mixamo_SyntyStudios@Female Sitting Pose.fbx using Guid(30b17a1a65afb2646a206a8b13583d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d2fd0e0b5a91bbd6bca85077f68689') in 0.018180 seconds
+  Import took 0.024162 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.488 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.4 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 3.929000 ms (FindLiveObjects: 0.382400 ms CreateObjectMapping: 0.183300 ms MarkObjects: 3.211400 ms  DeleteObjects: 0.149400 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1852.
+Total: 3.769200 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.100500 ms MarkObjects: 3.031600 ms  DeleteObjects: 0.257600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 576.601771 seconds.
+  path: Assets/Scenes/Env.unity
+  artifactKey: Guid(176c9434ed6d8ff49a8e030c931d7d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Env.unity using Guid(176c9434ed6d8ff49a8e030c931d7d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461f48de10ae638f37b5131d085e785') in 0.040838 seconds
+  Import took 0.047881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.018326 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_GamerGirl_01.prefab
+  artifactKey: Guid(ae8b16115c4dca4499645ab171e10144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_GamerGirl_01.prefab using Guid(ae8b16115c4dca4499645ab171e10144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe603119964d6741a6e5b508163349b') in 0.201551 seconds
+  Import took 0.206971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.101862 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab
+  artifactKey: Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab using Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c06fd0b4f844a3f52507def389ca48') in 0.089187 seconds
+  Import took 0.096512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017513 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab
+  artifactKey: Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Gangster_01.prefab using Guid(0d71eaacb7dc9214a840923aeede17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c06fd0b4f844a3f52507def389ca48') in 0.048930 seconds
+  Import took 0.056481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.164288 seconds.
+  path: Assets/POLYGONCityCharacters/Prefabs/Character_Grandma_01.prefab
+  artifactKey: Guid(1eb7038c3383b9d4182139ee87feaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Prefabs/Character_Grandma_01.prefab using Guid(1eb7038c3383b9d4182139ee87feaa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9765c468935e0f1b6eeb54e8c41a0355') in 0.082152 seconds
+  Import took 0.091228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.374942 seconds.
+  path: Assets/Models/Env/OfficeChair.fbx
+  artifactKey: Guid(9373b7652f2bc3f42be922393d799091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/OfficeChair.fbx using Guid(9373b7652f2bc3f42be922393d799091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f93df089a331741404e25696bf33000') in 0.170918 seconds
+  Import took 0.178840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_B.mat
+  artifactKey: Guid(c65b4622a07a3024c922f5e325ec09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_B.mat using Guid(c65b4622a07a3024c922f5e325ec09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5627326bdfa65aa296fc323f8bfb3d32') in 0.062493 seconds
+  Import took 0.066905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_B.mat
+  artifactKey: Guid(4b9751dad5fe4e84ab578efea4e91208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_B.mat using Guid(4b9751dad5fe4e84ab578efea4e91208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e27e5a061a8abff4f8c17df61f9fdc4') in 0.040562 seconds
+  Import took 0.045419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_C.mat
+  artifactKey: Guid(cc5ba20fcd17f164fadc1d8afa675b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_C.mat using Guid(cc5ba20fcd17f164fadc1d8afa675b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1e7e40be2552b047ff106a4202bb06') in 0.037797 seconds
+  Import took 0.042708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Models/Env/Houseplant_1.fbx
+  artifactKey: Guid(afa60ce601103904ba987b13e0d077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_1.fbx using Guid(afa60ce601103904ba987b13e0d077af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05db59d1a1ff53f9802ae77675b782a') in 0.068822 seconds
+  Import took 0.073040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_A.mat
+  artifactKey: Guid(382ddbf2744b3de47be7b63cf4d0fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_A.mat using Guid(382ddbf2744b3de47be7b63cf4d0fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb02d9f8d77e25bcc84be5c841b01fb9') in 0.046993 seconds
+  Import took 0.051388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Models/Env/Houseplant_5.fbx
+  artifactKey: Guid(e0e8b7f110ef5024cab1e49f7a64dde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_5.fbx using Guid(e0e8b7f110ef5024cab1e49f7a64dde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aa16a9f2063d0d6cea7ef147714bec') in 0.065192 seconds
+  Import took 0.069703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/Env/Trashcan_Small2.fbx
+  artifactKey: Guid(b184770abeeb131438d53dfa153929e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Trashcan_Small2.fbx using Guid(b184770abeeb131438d53dfa153929e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f1ab135902d9722688180ba7fa6dad') in 0.058404 seconds
+  Import took 0.063216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Models/Env/Trashcan_Small1.fbx
+  artifactKey: Guid(7b8d8831cc7974d42b1c8df77d913591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Trashcan_Small1.fbx using Guid(7b8d8831cc7974d42b1c8df77d913591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f918b9e0728f7df2c8dc18f6e4e5fdd') in 0.080159 seconds
+  Import took 0.085757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_A.mat
+  artifactKey: Guid(5bbd6722aa9719045a50ae9446452a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_A.mat using Guid(5bbd6722aa9719045a50ae9446452a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97176656ec0c338e355dfb8ead74b9b6') in 0.034801 seconds
+  Import took 0.040515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_B.mat
+  artifactKey: Guid(5b01bc2bde39e864a9f6cef7db48711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_B.mat using Guid(5b01bc2bde39e864a9f6cef7db48711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268fb55c215156799bc12358e97460cb') in 0.045491 seconds
+  Import took 0.051611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_C.mat
+  artifactKey: Guid(3fbc4723013d6134ba18114a6395e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_02_C.mat using Guid(3fbc4723013d6134ba18114a6395e305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b63fc92afe50810b405b87f62d66248') in 0.033121 seconds
+  Import took 0.037080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_C.mat
+  artifactKey: Guid(35d7cdf99e8449f41ade08209fdc9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_C.mat using Guid(35d7cdf99e8449f41ade08209fdc9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dcb342caf9357ff0348369ca21b622') in 0.047211 seconds
+  Import took 0.050915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_C.mat
+  artifactKey: Guid(26fa10a4c40808342a1dde99bd21d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_C.mat using Guid(26fa10a4c40808342a1dde99bd21d9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46b1ee2413969ce18d6fa55b0a5e46c') in 0.045938 seconds
+  Import took 0.050321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_B.mat
+  artifactKey: Guid(6c6136c201df46d43ac90030b3a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_04_B.mat using Guid(6c6136c201df46d43ac90030b3a3a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ca16de4092acfddf4cdfa325e9e2f') in 0.034384 seconds
+  Import took 0.040628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Models/Env/Houseplant_4.fbx
+  artifactKey: Guid(9e6b07d6695075e478f7b4d10d14aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_4.fbx using Guid(9e6b07d6695075e478f7b4d10d14aa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c356f8830c53c8e48e6859880ffb15') in 0.091094 seconds
+  Import took 0.095623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_A.mat
+  artifactKey: Guid(97788c85ffa3b1a44a7d3fb93f8ec5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_03_A.mat using Guid(97788c85ffa3b1a44a7d3fb93f8ec5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7271f09f05e0c12946c4c833c4c21363') in 0.037653 seconds
+  Import took 0.042744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Models/Env/Houseplant_3.fbx
+  artifactKey: Guid(5475a1090d1271245b293eac7939a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_3.fbx using Guid(5475a1090d1271245b293eac7939a7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d382f22a9db41e431a9a36d287941f') in 0.076939 seconds
+  Import took 0.081242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Models/Env/Houseplant_2.fbx
+  artifactKey: Guid(7c00cda70c3210b4599cc51ac7cb3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Houseplant_2.fbx using Guid(7c00cda70c3210b4599cc51ac7cb3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980fa1536cb2862eaf6f8b4277613de6') in 0.260081 seconds
+  Import took 0.269462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015680 seconds.
+  path: Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_A.mat
+  artifactKey: Guid(7d1c46152c97f4c4bbfe7d5e4596c95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGONCityCharacters/Materials/Polygon_City_Characters_Mat_01_A.mat using Guid(7d1c46152c97f4c4bbfe7d5e4596c95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520b65f319e8f69ca79aff3d4798de13') in 0.109081 seconds
+  Import took 0.119670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001170 seconds.
+  path: Assets/Models/Env/Trashcan_Cylindric.fbx
+  artifactKey: Guid(4930af429889cb24c855e2029565738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Trashcan_Cylindric.fbx using Guid(4930af429889cb24c855e2029565738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c8e6d6a730994b011aa30862bb11ed') in 0.125280 seconds
+  Import took 0.135857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.517715 seconds.
+  path: Assets/Models/Env/Shelf_1.fbx
+  artifactKey: Guid(0621b94c2d6eff645a625fbeb463ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Shelf_1.fbx using Guid(0621b94c2d6eff645a625fbeb463ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160340f63aa8a6c94f58fa9ad05343d3') in 0.052690 seconds
+  Import took 0.059465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Models/Env/Shelf_2.fbx
+  artifactKey: Guid(e1ffb3adf8d6348478e8c6e40cd35f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Shelf_2.fbx using Guid(e1ffb3adf8d6348478e8c6e40cd35f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239f05a1010ccd3ab34f65ab8e9f9746') in 0.052287 seconds
+  Import took 0.058814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Models/Env/Shelf_Large.fbx
+  artifactKey: Guid(afcbfc607657278488d6aef7226c8155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Shelf_Large.fbx using Guid(afcbfc607657278488d6aef7226c8155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df7e00c903e879f78ddde7ff7b222a6') in 0.051292 seconds
+  Import took 0.055835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Models/Env/Shelf_1.fbx
+  artifactKey: Guid(0621b94c2d6eff645a625fbeb463ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Env/Shelf_1.fbx using Guid(0621b94c2d6eff645a625fbeb463ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160340f63aa8a6c94f58fa9ad05343d3') in 0.060243 seconds
+  Import took 0.064497 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.001863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1317 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1855.
+Total: 3.787700 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.081900 ms MarkObjects: 3.333600 ms  DeleteObjects: 0.133600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.134586 seconds.
+  path: Assets/Prefabs/Workers.prefab
+  artifactKey: Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workers.prefab using Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53471c548999a80fb11d891c8c19c294') in 0.264662 seconds
+  Import took 0.273438 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+Total: 2.768800 ms (FindLiveObjects: 0.237700 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.337600 ms  DeleteObjects: 0.116000 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.006762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 3.496600 ms (FindLiveObjects: 0.253700 ms CreateObjectMapping: 0.079500 ms MarkObjects: 3.045400 ms  DeleteObjects: 0.115900 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.002411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.414 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 4.135600 ms (FindLiveObjects: 0.537800 ms CreateObjectMapping: 0.362600 ms MarkObjects: 3.041500 ms  DeleteObjects: 0.191000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3103.874144 seconds.
+  path: Assets/Prefabs/ThrowPodPrefab.prefab
+  artifactKey: Guid(9104bc9e22d48e440b94d0cb85601cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ThrowPodPrefab.prefab using Guid(9104bc9e22d48e440b94d0cb85601cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed88351ec4fe29457961b9f5268f1278') in 0.092974 seconds
+  Import took 0.100810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019848 seconds.
+  path: Assets/Prefabs/ThrowPodPrefab.prefab
+  artifactKey: Guid(9104bc9e22d48e440b94d0cb85601cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ThrowPodPrefab.prefab using Guid(9104bc9e22d48e440b94d0cb85601cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed88351ec4fe29457961b9f5268f1278') in 0.006905 seconds
+  Import took 0.011700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478056 seconds.
+  path: Assets/Prefabs/Workers.prefab
+  artifactKey: Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workers.prefab using Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79a1d4fa557d785cd7752b28cc2decb') in 0.409801 seconds
+  Import took 0.417994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.127494 seconds.
+  path: Assets/Prefabs/Workers.prefab
+  artifactKey: Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workers.prefab using Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791af9bda977d96c49fe5cf898e6b845') in 0.097759 seconds
+  Import took 0.107704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005105 seconds.
+  path: Assets/Prefabs/Workers.prefab
+  artifactKey: Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Workers.prefab using Guid(de9827f5e230f634d963dc9d8ee33f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791af9bda977d96c49fe5cf898e6b845') in 0.070674 seconds
+  Import took 0.078375 seconds .
+
