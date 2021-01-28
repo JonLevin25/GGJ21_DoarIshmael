@@ -29,16 +29,16 @@ public class PackageSpawner : MonoBehaviour
         }
         // ReSharper disable once IteratorNeverReturns
     }
-
-    /// <summary>
-    /// If has box - will fling
-    /// </summary>
-    public void TryFling(Vector3 force)
-    {
-        if (testDirection) testDirection.transform.rotation = Quaternion.FromToRotation(Vector3.forward, force);
-        if (!_currPackage) return;
-        _currPackage.Fling(force);
-    }
+    //
+    // /// <summary>
+    // /// If has box - will fling
+    // /// </summary>
+    // public void TryFling(Vector3 force)
+    // {
+    //     if (testDirection) testDirection.transform.rotation = Quaternion.FromToRotation(Vector3.forward, force);
+    //     if (!_currPackage) return;
+    //     _currPackage.Fling(force);
+    // }
 
     private void OnTriggerEnter(Collider other)
     {

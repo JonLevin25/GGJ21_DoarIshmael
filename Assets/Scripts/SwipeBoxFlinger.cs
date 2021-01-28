@@ -6,11 +6,12 @@ using Utils.ScriptableObjects.Audio;
 
 public class SwipeBoxFlinger : MonoBehaviour
 {
-    [SerializeField] private PackageSpawner[] _spawners;
-    [SerializeField] private RangedFloat[] _screenSplitXs;
-    [SerializeField] private float _flingBasePower;
-    [Range(0f, 1f)]
-    [SerializeField] private float _flingArc;
+    // [SerializeField] private PackageSpawner[] _spawners;
+    // [SerializeField] private RangedFloat[] _screenSplitXs;
+    [SerializeField] private float _flingXZPower;
+    
+    [SerializeField] private float _baseFlingArc;
+    [SerializeField] private float _flingArcSpeedMult;
 
     // private PackageSpawner[] _spawnersInScene;
 
@@ -31,41 +32,58 @@ public class SwipeBoxFlinger : MonoBehaviour
         var viewportStart = Camera.main.ScreenToViewportPoint(screenStart);
         var viewportEnd = Camera.main.ScreenToViewportPoint(screenEnd);
         var normalizedDelta = viewportEnd - viewportStart;
+
+        var package = FindClosestPackage(viewportStart);
         
+        // var spawner = FindClosestSpawner(viewportStart);
+        // spawner.TryFling(flingForce);
+
         Vector3 flingForce = GetFlingForce(normalizedDelta, time);
-        var spawner = FindClosestSpawner(viewportStart);
-        spawner.TryFling(flingForce);
+        if (package) package.Fling(flingForce);
     }
 
-    private PackageSpawner FindClosestSpawner(Vector3 viewportPos)
+    private PackageBox FindClosestPackage(Vector3 viewportStart)
     {
-        Debug.Log($"Find close ({viewportPos}");
-        // var sampleDist = _spawnersInScene[0].transform.position.z;
-        // viewportPos.z = -sampleDist;
-
-        var i = FindIndexContaining(_screenSplitXs, viewportPos.x);
-        return _spawners[i];
-        //
-        // var worldPoint = Camera.main.ViewportToWorldPoint(viewportPos);
-        // DebugStuff.Instance.DrawPoint(worldPoint, 2f);
-        // float SpawnerSqrDist(PackageSpawner spawner)
-        // {
-        //     var spawnerPos = spawner.transform.position;
-        //     var ray = worldPoint - spawnerPos;
-        //     
-        //     Debug.DrawRay(worldPoint, 15f * ray, Color.green, 1.5f);
-        //     return ray.sqrMagnitude;
-        // }
-        //
-        // PackageSpawner minSpawn = null;
-        // var minDist = float.PositiveInfinity;
-        // foreach (var packageSpawner in _spawnersInScene)
-        // {
-        //     if (SpawnerSqrDist(packageSpawner) < minDist) minSpawn = packageSpawner;
-        // }
-        //
-        // return minSpawn;
+        viewportStart.z = 1f;
+        var ray = Camera.main.ViewportPointToRay(viewportStart);
+        var didHit = Physics.Raycast(ray,
+            out var hitInfo, 
+            1000f,
+            layerMask: LayerMask.GetMask(Consts.Layer_BoxSwipeZone), QueryTriggerInteraction.Collide);
+        
+        if (!didHit) return null; // oh no!
+        return hitInfo.collider.transform.parent.GetComponent<PackageBox>();
     }
+
+    // private PackageSpawner FindClosestSpawner(Vector3 viewportPos)
+    // {
+    //     Debug.Log($"Find close ({viewportPos}");
+    //     // var sampleDist = _spawnersInScene[0].transform.position.z;
+    //     // viewportPos.z = -sampleDist;
+    //
+    //     var i = FindIndexContaining(_screenSplitXs, viewportPos.x);
+    //     return _spawners[i];
+    //     //
+    //     // var worldPoint = Camera.main.ViewportToWorldPoint(viewportPos);
+    //     // DebugStuff.Instance.DrawPoint(worldPoint, 2f);
+    //     // float SpawnerSqrDist(PackageSpawner spawner)
+    //     // {
+    //     //     var spawnerPos = spawner.transform.position;
+    //     //     var ray = worldPoint - spawnerPos;
+    //     //     
+    //     //     Debug.DrawRay(worldPoint, 15f * ray, Color.green, 1.5f);
+    //     //     return ray.sqrMagnitude;
+    //     // }
+    //     //
+    //     // PackageSpawner minSpawn = null;
+    //     // var minDist = float.PositiveInfinity;
+    //     // foreach (var packageSpawner in _spawnersInScene)
+    //     // {
+    //     //     if (SpawnerSqrDist(packageSpawner) < minDist) minSpawn = packageSpawner;
+    //     // }
+    //     //
+    //     // return minSpawn;
+    // }
 
     private int FindIndexContaining(RangedFloat[] ranges, float val)
     {
@@ -80,9 +98,11 @@ public class SwipeBoxFlinger : MonoBehaviour
 
     private Vector3 GetFlingForce(Vector2 viewPortDelta, float time)
     {
-        var arc = _flingArc / (time * 10f); // this number is magic
-        var force = new Vector3(viewPortDelta.x, arc, viewPortDelta.y);
-        return force * _flingBasePower;
+        var force = new Vector3(viewPortDelta.x, 0, viewPortDelta.y);
+
+        var viewportSpeed = viewPortDelta.magnitude / time;
+        var arc = _baseFlingArc + _flingArcSpeedMult * viewportSpeed; // this number is magic
+        return force * _flingXZPower + arc * Vector3.up;
     }
 }
 
