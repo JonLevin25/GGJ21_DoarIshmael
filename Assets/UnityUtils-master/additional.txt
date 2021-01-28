@@ -1,0 +1,2 @@
+UniTask:
+Unity Package manager, add git: https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
