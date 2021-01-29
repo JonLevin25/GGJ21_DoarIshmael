@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+using Utils;
+using Random = UnityEngine.Random;
 
 public class PackageBox : MonoBehaviour
 {
@@ -7,6 +9,19 @@ public class PackageBox : MonoBehaviour
     private static PackageBox _highlighted;
     private LevelSwipeZone _levelSwipeZone;
 
+    [SerializeField] private GameObject[] views;
+    [SerializeField] private GameObject currentView;
+    
+
+    void OnEnable()
+    {
+        currentView.SetActive(false);
+        var view = views.Choice();
+        view.SetActive(true);
+        view.transform.localScale = new Vector3(Random.Range(2f, 4f), Random.Range(2f, 4f), Random.Range(2f, 4f));
+        currentView = view;
+    }
+    
     private void OnCollisionEnter(Collision other)
     {
         var target = other.gameObject.GetComponent<PackageTarget>();
