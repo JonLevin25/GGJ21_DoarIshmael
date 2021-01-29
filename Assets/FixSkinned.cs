@@ -1,14 +1,19 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.NetworkInformation;
-using UnityEditor;
 using UnityEngine;
 
 public class FixSkinned : MonoBehaviour
 {
+#if UNITY_EDITOR
+
     [SerializeField] private GameObject rootPrefab;
+
+    public void Reset()
+    {
+        Fix();
+    }
+
     [NaughtyAttributes.Button("Fix")]
     public void Fix()
     {
@@ -18,7 +23,7 @@ public class FixSkinned : MonoBehaviour
         
         var rootParent = root.parent;
         DestroyImmediate(root.gameObject);
-        var newRootPrefab = (GameObject) PrefabUtility.InstantiatePrefab(rootPrefab, rootParent);
+        var newRootPrefab = (GameObject) UnityEditor.PrefabUtility.InstantiatePrefab(rootPrefab, rootParent);
         var newRoot = newRootPrefab.transform;
         var newBones = GetBonesFromPaths(paths, newRoot).Skip(1);
 
@@ -65,4 +70,5 @@ public class FixSkinned : MonoBehaviour
 
         return parentStack.ToArray();
     }
+#endif
 }
