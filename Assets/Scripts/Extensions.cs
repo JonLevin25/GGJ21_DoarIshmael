@@ -4,6 +4,12 @@ using Utils.ScriptableObjects.Audio;
 
 public static class Extensions
 {
+    public static string JoinStr<T>(this IEnumerable<T> collection, string separator = ", ")
+    {
+        if (collection == null) return "<NULL>";
+        return string.Join(separator, collection);
+    }
+    
     public static T RandomItem<T>(this IReadOnlyList<T> collection)
     {
         var idx = UnityEngine.Random.Range(0, collection.Count);

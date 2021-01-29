@@ -1,28 +1,59 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
+using Utils.ScriptableObjects.Audio;
 
+public static class Helper
+{
+    public static IEnumerator RepeatRoutine(float secs, Action action, Func<bool> condition = null,
+        bool startWithAction = false)
+    {
+        condition ??= () => true;
+        if (action == null) throw new ArgumentNullException();
+        if (startWithAction && condition()) action();
+        while (true)
+        {
+            yield return new WaitForSeconds(secs);
+            if (condition()) action();
+        }
+    }
+}
 
 public class PackageTarget : MonoBehaviour
 {
-    [Serializable]
-    public struct ActivateAnim
+    [SerializeField] private Animator animator;
+
+    [Header("Hit Anim")] [SerializeField] private AnimAction[] onHitAnims;
+
+    [Header("Random Idle Anim")] [SerializeField]
+    private bool randomIdleOnEnable;
+
+    [MinMaxRange(0.2f, 20.0f)] [SerializeField] private RangedFloat randomIdleEvery;
+    [SerializeField] private AnimAction idleAnim;
+
+    protected virtual void Reset()
     {
-        public string IntPropName;
-        public int[] Values;
+        animator = GetComponent<Animator>();
     }
     
-    [SerializeField] private Animator animator;
-    [SerializeField] private ActivateAnim animProp;
-    
+    protected virtual void OnEnable()
+    {
+        StartCoroutine(
+            Helper.RepeatRoutine(randomIdleEvery.Random(), RandomIdle, startWithAction: randomIdleOnEnable)
+        );
+    }
+
+    protected void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
+    private void RandomIdle() => idleAnim.Invoke(animator);
 
     public virtual void OnPackageHit(PackageBox package)
     {
-        ActivateRandom(animProp);
-    }
-
-    public void ActivateRandom(ActivateAnim animProp)
-    {
-        var value = animProp.Values.RandomItem();
-        animator.SetInteger(animProp.IntPropName, value);
+        Debug.Log($"{name} ({GetType().Name} PackageHit");
+        var hitAnim = onHitAnims.RandomItem();
+        hitAnim.Invoke(animator);
     }
 }

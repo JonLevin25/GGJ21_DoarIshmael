@@ -5,6 +5,7 @@
     public override void OnPackageHit(PackageBox package)
     {
         base.OnPackageHit(package);
+        
         SatisfiedCustomers++;
     }
 }
