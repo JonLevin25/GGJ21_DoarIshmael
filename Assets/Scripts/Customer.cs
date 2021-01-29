@@ -1,11 +1,10 @@
-﻿using UnityEngine;
-
-public class Customer : MonoBehaviour
+﻿public class Customer : PackageTarget
 {
-    public static int SatisfiedCustomers;
+    public static int SatisfiedCustomers; // Score TODO: SHow in UI
 
-    public void ReceivePackage(PackageBox package)
+    public override void OnPackageHit(PackageBox package)
     {
+        base.OnPackageHit(package);
         SatisfiedCustomers++;
     }
 }
