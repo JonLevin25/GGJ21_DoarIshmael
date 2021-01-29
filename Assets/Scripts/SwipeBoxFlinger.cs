@@ -8,10 +8,10 @@ public class SwipeBoxFlinger : MonoBehaviour
 {
     // [SerializeField] private PackageSpawner[] _spawners;
     // [SerializeField] private RangedFloat[] _screenSplitXs;
-    [SerializeField] private float _flingXZPower;
-    
-    [SerializeField] private float _baseFlingArc;
-    [SerializeField] private float _flingArcSpeedMult;
+    // [SerializeField] private float _flingXZPower;
+    //
+    // [SerializeField] private float _baseFlingArc;
+    // [SerializeField] private float _flingArcSpeedMult;
 
     // private PackageSpawner[] _spawnersInScene;
 
@@ -34,12 +34,10 @@ public class SwipeBoxFlinger : MonoBehaviour
         var normalizedDelta = viewportEnd - viewportStart;
 
         var package = FindClosestPackage(viewportStart);
+        if (package) package.OnSwipe(normalizedDelta, time);
         
         // var spawner = FindClosestSpawner(viewportStart);
         // spawner.TryFling(flingForce);
-
-        Vector3 flingForce = GetFlingForce(normalizedDelta, time);
-        if (package) package.Fling(flingForce);
     }
 
     private PackageBox FindClosestPackage(Vector3 viewportStart)
@@ -96,14 +94,14 @@ public class SwipeBoxFlinger : MonoBehaviour
         return -1;
     }
 
-    private Vector3 GetFlingForce(Vector2 viewPortDelta, float time)
-    {
-        var force = new Vector3(viewPortDelta.x, 0, viewPortDelta.y);
-
-        var viewportSpeed = viewPortDelta.magnitude / time;
-        var arc = _baseFlingArc + _flingArcSpeedMult * viewportSpeed; // this number is magic
-        return force * _flingXZPower + arc * Vector3.up;
-    }
+    // private Vector3 GetFlingForce(Vector2 viewPortDelta, float time)
+    // {
+    //     var force = new Vector3(viewPortDelta.x, 0, viewPortDelta.y);
+    //
+    //     var viewportSpeed = viewPortDelta.magnitude / time;
+    //     var arc = _baseFlingArc + _flingArcSpeedMult * viewportSpeed; // this number is magic
+    //     return force * _flingXZPower + arc * Vector3.up;
+    // }
 }
 
 public class DebugStuff : Singleton<DebugStuff>
