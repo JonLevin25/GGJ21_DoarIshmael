@@ -28,12 +28,15 @@ public class PackageBox : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         if (!other.gameObject.CompareTag(Consts.Tag_Customer)) return;
-        OnReachedCustomer();
+        var customer = other.gameObject.GetComponent<Customer>();
+        if (customer == null) return;
+        OnReachedCustomer(customer);
     }
 
-    private void OnReachedCustomer()
+    private void OnReachedCustomer(Customer customer)
     {
         Debug.Log("Cusomer!");
+        customer.ReceivePackage(this);
         Destroy(gameObject);
     }
 }
