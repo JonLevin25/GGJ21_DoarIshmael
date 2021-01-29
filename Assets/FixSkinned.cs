@@ -14,6 +14,19 @@ public class FixSkinned : MonoBehaviour
         Fix();
     }
 
+    [NaughtyAttributes.Button("Fix incative using active)")]
+    public void FixInactiveUsingActive()
+    {
+        var activeSkinned = GetComponentsInChildren<SkinnedMeshRenderer>()[0];
+        var allSkinned = GetComponentsInChildren<SkinnedMeshRenderer>(includeInactive: true);
+        
+        foreach (var skin in allSkinned)
+        {
+            skin.bones = activeSkinned.bones;
+            skin.rootBone = activeSkinned.rootBone;
+        }
+    }
+
     [NaughtyAttributes.Button("Fix")]
     public void Fix()
     {
