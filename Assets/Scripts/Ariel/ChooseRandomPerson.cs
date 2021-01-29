@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using Utils;
+using Random = UnityEngine.Random;
 
 namespace Ariel
 {
@@ -11,7 +13,12 @@ namespace Ariel
 
         [SerializeField]
         private ChooseRandomPersonOptions randomPersonOptions;
-        
+
+        private void OnEnable()
+        {
+            ChangeCharacter();
+        }
+
         List<GameObject> FindOptions()
         {
             if (characters.Count > 0)

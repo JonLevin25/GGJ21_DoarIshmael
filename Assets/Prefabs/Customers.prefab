@@ -33,21 +33,6 @@ Transform:
   m_Father: {fileID: 2134393227379824285}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1608145941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884465615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c79cf15a654296bfd824fef7cc52a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  values:
-  - name: WalkStyle
-    values: 00000000
 --- !u!54 &5129871852244739131
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -64,6 +49,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1608145941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884465615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c79cf15a654296bfd824fef7cc52a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  values:
+  - name: WalkStyle
+    values: 00000000
+--- !u!114 &766597584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884465615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f681466ca9548f2a0e5098cb55892f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPersonOptions: {fileID: 11400000, guid: bdc4bb032daf0eb49be9127d6692b0f2, type: 2}
 --- !u!1 &423678390343576752
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +184,19 @@ MonoBehaviour:
     Triggers: []
     IntPropName: IdleStyle
     IntPropValues: 00000000010000000200000003000000
+--- !u!114 &766597586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312331878800573255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f681466ca9548f2a0e5098cb55892f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPersonOptions: {fileID: 11400000, guid: bdc4bb032daf0eb49be9127d6692b0f2, type: 2}
 --- !u!54 &1639006452843079373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -187,6 +213,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &7797071625806903685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705935081502825950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f681466ca9548f2a0e5098cb55892f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPersonOptions: {fileID: 11400000, guid: bdc4bb032daf0eb49be9127d6692b0f2, type: 2}
 --- !u!114 &8961687334694063902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,21 +254,6 @@ MonoBehaviour:
     Triggers: []
     IntPropName: IdleStyle
     IntPropValues: 00000000010000000200000003000000
---- !u!114 &1100583347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134393226665345167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73c79cf15a654296bfd824fef7cc52a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  values:
-  - name: WalkStyle
-    values: 05000000
 --- !u!54 &3862953806273336853
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -246,6 +270,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1100583347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134393226665345167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c79cf15a654296bfd824fef7cc52a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  values:
+  - name: WalkStyle
+    values: 05000000
+--- !u!114 &766597585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134393226665345167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f681466ca9548f2a0e5098cb55892f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPersonOptions: {fileID: 11400000, guid: bdc4bb032daf0eb49be9127d6692b0f2, type: 2}
 --- !u!54 &8074098041189968513
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -262,6 +314,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &2301308751875001888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134393226979996262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f681466ca9548f2a0e5098cb55892f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomPersonOptions: {fileID: 11400000, guid: bdc4bb032daf0eb49be9127d6692b0f2, type: 2}
 --- !u!114 &4201529443492016924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2d9d718b0f1e2994e943e69587a807d3, type: 2}
+    - target: {fileID: 9578174, guid: 1a8311760944bee4a800ce10f84eee90, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a8311760944bee4a800ce10f84eee90, type: 3}
 --- !u!1 &1884465615 stripped
@@ -600,8 +669,17 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 3c40cf8d09ed99c46acc9021f3ac5bf9, type: 2}
+    - target: {fileID: 9558652, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
+--- !u!95 &1312331878808101207 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9558652, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
+  m_PrefabInstance: {fileID: 1312331878800751403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1312331878800396429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 486310, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
@@ -610,11 +688,6 @@ Transform:
 --- !u!1 &1312331878800573255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 178284, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
-  m_PrefabInstance: {fileID: 1312331878800751403}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1312331878808101207 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9558652, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
   m_PrefabInstance: {fileID: 1312331878800751403}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1705935081502729650
@@ -688,6 +761,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 3c40cf8d09ed99c46acc9021f3ac5bf9, type: 2}
+    - target: {fileID: 9558652, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
 --- !u!4 &1705935081503165972 stripped
@@ -771,6 +848,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2d9d718b0f1e2994e943e69587a807d3, type: 2}
+    - target: {fileID: 9538756, guid: ae8b16115c4dca4499645ab171e10144, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae8b16115c4dca4499645ab171e10144, type: 3}
 --- !u!1 &2134393226665345167 stripped
@@ -854,6 +935,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 3c40cf8d09ed99c46acc9021f3ac5bf9, type: 2}
+    - target: {fileID: 9558652, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe631d66d91635d4db4b17b1c3da562a, type: 3}
 --- !u!95 &2134393226989604982 stripped
