@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d91b835690a4204b05e5a6bebabbfa9, type: 3}
+  m_Name: ChooseRandomPersonTextures
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 3391e5a0d7f698a4b97dea8e8b5e894c, type: 3}
+  - {fileID: 2800000, guid: 454ffb6d67ef7d34193cc678c68a33a6, type: 3}
+  - {fileID: 2800000, guid: f70ce1685072bd445b140a57d2a8e982, type: 3}
+  - {fileID: 2800000, guid: eadc8717e5ed3c74c84a537769c8c137, type: 3}
+  - {fileID: 2800000, guid: 38f5c32e22b52ea40a72c4c5f67f38d8, type: 3}
+  - {fileID: 2800000, guid: 23baa9f92793d1843b907d6c98fe950f, type: 3}
+  - {fileID: 2800000, guid: f785b3e8a16f9fe49ab44fdde4efa588, type: 3}
+  - {fileID: 2800000, guid: a74879ed15dc6934198ee7202f43dfa8, type: 3}
+  - {fileID: 2800000, guid: 1f4b93ddfc97d1442924feee982383f6, type: 3}
+  - {fileID: 2800000, guid: 47618f150a63c0b409f4c04b3f86b8a8, type: 3}
+  - {fileID: 2800000, guid: 7c71954124aeb38479a5d0f5367c0c0c, type: 3}
+  - {fileID: 2800000, guid: d4a977437820eaa488988c487a7e6940, type: 3}
