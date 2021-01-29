@@ -78,8 +78,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 6379393130217766979}
   spawnRateRange:
-    minValue: 0.94524705
-    maxValue: 3.1842375
+    minValue: 0.70256406
+    maxValue: 0.70256406
   spawnIfAlreadyPackage: 0
   boxPrefabs:
   - {fileID: 9176823435998700455, guid: 844614a5977ef7343aaf595b143fc7b6, type: 3}
@@ -95,8 +95,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.30089682, y: 0.08118063, z: 0.30279222}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.3296795, y: 0.28071186, z: 0.33487016}
+  m_Center: {x: 0, y: 0.09976561, z: -0}
 --- !u!54 &8849207965727536149
 Rigidbody:
   m_ObjectHideFlags: 0
