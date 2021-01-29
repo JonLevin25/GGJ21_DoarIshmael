@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PackageBox : MonoBehaviour
 {
@@ -22,5 +23,17 @@ public class PackageBox : MonoBehaviour
     private static void SetColor(PackageBox package, Color color)
     {
         package.GetComponent<Renderer>().material.color = color;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!other.gameObject.CompareTag(Consts.Tag_Customer)) return;
+        OnReachedCustomer();
+    }
+
+    private void OnReachedCustomer()
+    {
+        Debug.Log("Cusomer!");
+        Destroy(gameObject);
     }
 }
