@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using NaughtyAttributes;
 using UnityEngine;
 using Utils.ScriptableObjects.Audio;
 
@@ -55,5 +56,11 @@ public class PackageTarget : MonoBehaviour
         Debug.Log($"{name} ({GetType().Name} PackageHit");
         var hitAnim = onHitAnims.RandomItem();
         hitAnim.Invoke(animator);
+    }
+
+    [Button("On Package Hit")]
+    public virtual void OnPackageHit()
+    {
+        OnPackageHit(null);
     }
 }

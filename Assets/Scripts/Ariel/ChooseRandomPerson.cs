@@ -11,11 +11,16 @@ namespace Ariel
     {
         List<GameObject> characters = new List<GameObject>();
 
+        private Vector3 savedPos;
+        private Quaternion savedRot;
+
         [SerializeField]
         private ChooseRandomPersonOptions randomPersonOptions;
 
         private void OnEnable()
         {
+            savedPos = transform.position;
+            savedRot = transform.rotation;
             ChangeCharacter();
         }
 
@@ -48,6 +53,13 @@ namespace Ariel
             character.GetComponent<SkinnedMeshRenderer>().material.mainTexture = randomPersonOptions.textures.Choice();
             var scale = Random.Range(0.8f, 1f);
             transform.localScale = new Vector3(scale, scale, scale);
+        }
+
+        public void CrouchStarted()
+        {
+            transform.position = savedPos;
+            transform.rotation = savedRot;
+            ChangeCharacter();
         }
     }
 }
