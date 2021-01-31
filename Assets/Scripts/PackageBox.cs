@@ -26,7 +26,7 @@ public class PackageBox : MonoBehaviour
     {
         var target = other.gameObject.GetComponent<PackageTarget>();
         if (target == null) return;
-        OnReachedCustomer(target);
+        OnReachedTarget(target);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -67,10 +67,10 @@ public class PackageBox : MonoBehaviour
         package.GetComponent<Renderer>().material.color = color;
     }
 
-    private void OnReachedCustomer(PackageTarget target)
+    private void OnReachedTarget(PackageTarget target)
     {
         Debug.Log("Cusomer!");
         target.OnPackageHit(this);
-        Destroy(gameObject);
+        if (target is Customer) Destroy(gameObject);
     }
 }
