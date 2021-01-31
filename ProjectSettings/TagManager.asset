@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PackageTarget
   - LevelSwipeZone
+  - Package
   layers:
   - Default
   - TransparentFX

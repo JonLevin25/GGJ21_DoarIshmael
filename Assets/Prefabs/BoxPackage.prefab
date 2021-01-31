@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 2467431424149914731}
   m_Layer: 0
   m_Name: BoxPackage
-  m_TagString: Untagged
+  m_TagString: Package
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +270,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5755329
+  m_Radius: 0.58277315
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &887348799596922517
 BoxCollider:
@@ -299,6 +299,10 @@ PrefabInstance:
     - target: {fileID: 6106792891312705767, guid: 09283fd75fdd40d48b00d24c1b44b004, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6106792891312705767, guid: 09283fd75fdd40d48b00d24c1b44b004, type: 3}
+      propertyPath: m_TagString
+      value: Package
       objectReference: {fileID: 0}
     - target: {fileID: 6914291425746307677, guid: 09283fd75fdd40d48b00d24c1b44b004, type: 3}
       propertyPath: m_RootOrder
@@ -438,6 +442,10 @@ PrefabInstance:
     - target: {fileID: 4422114123708117905, guid: 2de0374b0b0bd3a4e970d3f4b8e95145, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422114123708117905, guid: 2de0374b0b0bd3a4e970d3f4b8e95145, type: 3}
+      propertyPath: m_TagString
+      value: Package
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2de0374b0b0bd3a4e970d3f4b8e95145, type: 3}

@@ -14,6 +14,7 @@ public class PackageSpawner : MonoBehaviour
     [SerializeField] private GameObject testDirection;
     
     private PackageBox _currPackage;
+    private GameObject _currPackageGameObject;
 
     private void OnEnable() => StartCoroutine(SpawnRoutine());
 
@@ -43,19 +44,21 @@ public class PackageSpawner : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (_currPackage != null) return;
+        if (!other.CompareTag(Consts.Tag_Package)) return;
         
-        var package = other.GetComponent<PackageBox>();
+        var package = other.GetComponentInParent<PackageBox>();
         if (package == null) return;
 
         _currPackage = package;
+        _currPackageGameObject = other.gameObject;
     }
     
     private void OnTriggerExit(Collider other)
     {
-        if (_currPackage == null) return;
-        if (_currPackage.gameObject == other.gameObject)
+        if (_currPackage && _currPackageGameObject == other.gameObject)
         {
             _currPackage = null;
+            _currPackageGameObject = null;
         }
     }
 }

@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using Lean.Touch;
 using UnityEngine;
 using Utils;
@@ -33,24 +35,36 @@ public class SwipeBoxFlinger : MonoBehaviour
         var viewportEnd = Camera.main.ScreenToViewportPoint(screenEnd);
         var normalizedDelta = viewportEnd - viewportStart;
 
-        var package = FindClosestPackage(viewportStart);
-        if (package) package.OnSwipe(normalizedDelta, time);
-        
-        // var spawner = FindClosestSpawner(viewportStart);
-        // spawner.TryFling(flingForce);
+        var packages = RaycastPackages(viewportStart, viewportEnd);
+        foreach (var package in packages)
+        {
+            package.OnSwipe(normalizedDelta, time);
+        }
     }
 
-    private PackageBox FindClosestPackage(Vector3 viewportStart)
+    private IEnumerable<PackageBox> RaycastPackages(Vector3 viewportStart, Vector3 viewportEnd)
     {
         viewportStart.z = 1f;
         var ray = Camera.main.ViewportPointToRay(viewportStart);
-        var didHit = Physics.Raycast(ray,
-            out var hitInfo, 
-            1000f,
-            layerMask: LayerMask.GetMask(Consts.Layer_BoxSwipeZone), QueryTriggerInteraction.Collide);
-        
-        if (!didHit) return null; // oh no!
-        return hitInfo.collider.transform.parent.GetComponent<PackageBox>();
+        var hitInfos = GetRays(viewportStart, viewportEnd, Camera.main)
+            .SelectMany(ray => Physics.RaycastAll(ray,
+            100f,
+            layerMask: LayerMask.GetMask(Consts.Layer_BoxSwipeZone), QueryTriggerInteraction.Collide)
+        ).ToArray();
+
+        if (!hitInfos.Any()) return null; // oh no!
+        return hitInfos.Select(hitInfo => hitInfo.collider.transform.parent.GetComponent<PackageBox>());
+    }
+
+    private IEnumerable<Ray> GetRays(Vector3 viewPortStart, Vector3 viewPortEnd, Camera cam, int rayCount = 6)
+    {
+        var deltaT = 1f / rayCount;
+        for (var i = 0; i < rayCount; i++)
+        {
+            var t = deltaT * i;
+            var point = Vector3.Lerp(viewPortStart, viewPortEnd, t);
+            yield return cam.ViewportPointToRay(point);
+        }
     }
 
     // private PackageSpawner FindClosestSpawner(Vector3 viewportPos)
@@ -119,4 +133,3 @@ public class DebugStuff : Singleton<DebugStuff>
         Destroy(go);
     }
 }
-
