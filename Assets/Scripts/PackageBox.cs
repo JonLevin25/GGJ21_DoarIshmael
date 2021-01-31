@@ -11,7 +11,7 @@ public class PackageBox : MonoBehaviour
 
     [SerializeField] private GameObject[] views;
     [SerializeField] private GameObject currentView;
-    
+    [SerializeField] private float pacakgeDelayTime;    
 
     void OnEnable()
     {
@@ -31,9 +31,14 @@ public class PackageBox : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag(Consts.Tag_LevelSwipeZone)) return;
-        _levelSwipeZone = other.GetComponent<LevelSwipeZone>();
-        if (!_levelSwipeZone) Debug.LogError("No LevelZone component on swipeZone tag object!");
+        if (other.CompareTag(Consts.Tag_LevelSwipeZone))
+        {
+            _levelSwipeZone = other.GetComponent<LevelSwipeZone>();
+            if (!_levelSwipeZone) Debug.LogError("No LevelZone component on swipeZone tag object!");
+        } else if (other.CompareTag(Consts.Tag_PackageDestroya))
+        {
+            Destroy(gameObject, pacakgeDelayTime);
+        }
     }
 
     public void OnSwipe(Vector3 normalizedDelta, float time)
@@ -45,6 +50,7 @@ public class PackageBox : MonoBehaviour
     public void Fling(Vector3 force)
     {
         Debug.Log($"Fling({force})");
+        _rb.velocity = Vector3.zero;
         _rb.AddForce(force, ForceMode.Impulse);
         Highlight(this);
     }
