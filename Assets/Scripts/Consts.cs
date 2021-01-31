@@ -13,4 +13,5 @@ public static class Consts
     
     public const string Tag_PackageTarget = "PackageTarget"; // tODO: Use
     public const string Tag_Package = "Package";
+    public const string Tag_PackageDestroya = "PackageDestroya";
 }
